@@ -1,1 +1,1 @@
-https://AVoit3000.github.io/projects/Homework/
+https://github.com/AVoit3000/projects
