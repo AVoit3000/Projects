@@ -1,0 +1,246 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0;
+  }
+  p {
+    line-height: 1.65em;
+  }
+  .container {
+    width: 1170px;
+    margin: 0 auto;
+  }
+  .header {
+    background: rgba(72, 178, 243, 1);
+    background: -moz-linear-gradient(
+      left,
+      rgba(72, 178, 243, 1) 0%,
+      rgba(58, 148, 221, 1) 100%
+    );
+    background: -webkit-gradient(
+      left top,
+      right top,
+      color-stop(0%, rgba(72, 178, 243, 1)),
+      color-stop(100%, rgba(58, 148, 221, 1))
+    );
+    background: -webkit-linear-gradient(
+      left,
+      rgba(72, 178, 243, 1) 0%,
+      rgba(58, 148, 221, 1) 100%
+    );
+    background: -o-linear-gradient(
+      left,
+      rgba(72, 178, 243, 1) 0%,
+      rgba(58, 148, 221, 1) 100%
+    );
+    background: -ms-linear-gradient(
+      left,
+      rgba(72, 178, 243, 1) 0%,
+      rgba(58, 148, 221, 1) 100%
+    );
+    background: linear-gradient(
+      to right,
+      rgba(72, 178, 243, 1) 0%,
+      rgba(58, 148, 221, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48b2f3', endColorstr='#3a94dd', GradientType=1 );
+    padding-top: 70px;
+    color: #fff;
+    padding-bottom: 43px;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .offer {
+    width: 565px;
+  }
+  .title h1 {
+    font-size: 37px;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin: 0;
+  }
+  .title h1 span {
+    font-size: 59px;
+    line-height: 1.2em;
+  }
+  .intro {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    margin-bottom: 45px;
+    width: 403px;
+    margin-top: 48px;
+  }
+  .btn {
+    background-color: #ffd429;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    color: black;
+    font-size: 15px;
+    display: block;
+    width: 222px;
+    padding: 22px 0;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 44px;
+    transition: 0.5s ease;
+  }
+  .btn:hover {
+    background: #d6ad07;
+  }
+  .travel {
+    margin-top: 50px;
+    margin-right: -60px;
+  }
+  .dreams {
+    padding-top: 108px;
+    padding-bottom: 120px;
+  }
+  .section-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .times {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 73px;
+  }
+  .time {
+    width: 288px;
+    text-align: center;
+  }
+  .time-title {
+    font-size: 19px;
+    font-weight: bold;
+  }
+  .time-title-one {
+    margin-top: 30px;
+  }
+  .time-title-two {
+    margin-top: 22px;
+  }
+  .time-title-three {
+    margin-top: 20px;
+  }
+  .time-text {
+    font-size: 15px;
+    margin-top: 18px;
+  }
+  .time-trav {
+    width: 264px;
+  }
+  .time-val {
+    width: 303px;
+  }
+  .tickets {
+    background: #ecf2f8;
+    padding-top: 104px;
+    padding-bottom: 101px;
+  }
+  .form {
+    margin-top: 57px;
+  }
+  .input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 313px;
+    border: 1px solid #bbbbbb;
+    margin-bottom: 16px;
+    font-size: 15px;
+    border-radius: 5px;
+    height: 48px;
+    padding-left: 26px;
+  }
+  .btn-form {
+    border: none;
+    width: 342px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+  }
+  .footer {
+    padding: 62px 0;
+    background: #164d7a;
+  }
+  .credits {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+  }
+  /*Responsive*/
+  
+  /* 992px - 1200px */
+  @media screen and (max-width: 1200px) {
+    .container {
+      width: 960px;
+    }
+    .travel {
+      margin-left: -30px;
+    }
+  }
+  
+  /* 768px - 992px */
+  @media screen and (max-width: 992px) {
+    .container {
+      width: 720px;
+    }
+    .wrapper {
+      flex-direction: column;
+      text-align: center;
+    }
+    .offer {
+      width: 100%;
+    }
+    .intro {
+      width: auto;
+    }
+    .btn {
+      margin: 0 auto;
+    }
+    .travel {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  /* 576px - 768px */
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 540px;
+    }
+    .travel {
+      width: 100%;
+    }
+  }
+  
+  /* 320px - 576px */
+  @media screen and (max-width: 576px) {
+    .container {
+      width: 90%;
+    }
+    .times {
+      flex-direction: column;
+    }
+    .time {
+      margin-bottom: 30px;
+    }
+    .input {
+      width: 270px;
+    }
+    .btn {
+      width: 298px;
+    }
+  }
